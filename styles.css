@@ -350,12 +350,31 @@ body {
 @media (max-width: 799px) {
     .hero {
         grid-template-columns: 1fr;
-        gap: 24px;
-        padding-top: 28px;
+        gap: 18px;
+        padding-top: 22px;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+
+    .cta {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .quick-contacts {
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .skills-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: 1fr 1fr;
     }
 
     .cards {
@@ -364,5 +383,17 @@ body {
 
     .highlights {
         grid-template-columns: 1fr;
+    }
+
+    .section {
+        padding: 40px 0;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .lead {
+        font-size: 15px;
     }
 }
